@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+// Declare your NumInterface class here!
+class NumInterface{
+    public:
+    virtual void display(int) = 0;
+    virtual void increment(int) = 0;
+};
+int main(){
+    // your goal is to make the line below produce the error as mentioned by the comment infront of it.
+    // NumInterface ni;        
+    // This line should give an error along the lines: cannot declare a variable of abstract type!
+    // once you've produced the desired error, comment this line to make your program compile. you should comment the above line only after you have made the class an abstract type !!!
+    cout << "hello, world!" << endl;
+    return 0;
+}
